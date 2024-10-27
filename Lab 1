@@ -1,0 +1,11 @@
+PHÂN TÍCH YÊU CẦU:
+- Cho phép nhân viên nhập thông tin thẻ chấm công.
+- Hệ thống chạy trên hệ điều hành Windows.
+- Hệ thống phải hoạt động với csdl DB2 chạy trên máy chủ IBM (được phép truy cập, không được cập nhật).
+- Hệ thống tính lương theo giờ. Nếu làm việc hơn 8 giờ sẽ trả gấp 1,5 lần mức lương bình thường cho những giờ làm thêm. Người làm việc theo giờ được trả lương vào mỗi thứ 6.
+- Nhân viên được trả lương cố định vẫn nộp thẻ chấm công ghi lại ngày và số giờ làm việc, được trả lương vào ngày cuối cùng của tháng.
+- Nhân viên hưởng lương nhận được hoa hồng dựa trên doanh số của họ với các mức 10%, 15%, 25% hoặc 35%.
+- Nhân viên có thể truy vấn hệ thống để biết số giờ làm việc, tổng số giờ được tính cho 1 dự án, tổng số tiền lương nhận được, thời gian nghỉ phép còn lại, v.v.
+- Cho phép nhân viên chọn phương thức thanh toán như gửi lương đến địa chỉ bưu chính, tài khoản ngân hàng hoặc nhận tại văn phòng.
+- Quản trị viên bảng lương có quyền thêm nhân viên mới, xóa nhân viên và thay đổi tất cả thông tin nhân viên như tên, địa chỉ và phân loại thanh toán (theo giờ, theo lương, theo hoa hồng), cũng như chạy các báo cáo hành chính.
+- Hệ thống sẽ tự động trả lương cho nhân viên vào mỗi thứ 6 và vào ngày làm việc cuối tháng
