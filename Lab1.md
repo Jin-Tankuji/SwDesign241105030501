@@ -27,5 +27,6 @@ Giải thích từng phần:
       + EmployeeView: Hiển thị thông tin và báo cáo cho nhân viên. Các phương thức displayEmployeeInfo, displayPaymentInfo, displayReports giúp người xem chi tiết thông tin và báo cáo cá nhân.
   - Controller:
       + EmployeeController: Quản lý các yêu cầu giữa Model và View.
+
 Biểu đồ package: 
 ![MVC - PayrollSystem](https://www.planttext.com/api/plantuml/png/b5NDRjim3BxxANpC3da1eoXQ90FQGzfWBTOpAp694Fr1ahiPMvwiXptINc5oOpkHBCKT3mPiVXB9Zn_fl-z_Rgm3ush12mra3riirz0OnVbJOnsAybTHbDvwvqfHvFvZsHdXO6tvLMYk6iGpnz5wn_soAfbqaVS115QbTOR9RUIwfTIWjHclJr6WT2jqEqMhy3MPGUj-RhIF5hv7O0ASr1mS-XjdNwgIglgLdq278ghxcGbSWA6ZkfV-ZkhZ6JdkL6tiYp9xfDFNhsj3Tc3nqL0qduznArGjtQNhuTNJ2iG5xUiv6GMQP2NCkYsHDuCayAT3IUCWqPadu60OqlyxjL12C6kPajCdSxK7sXcLhc4eP0O1hPw7DyLebeKbCqZS4hMop0r9fPNQPQByAF8LCFuf-EDcmmYk6TdNEdDWE36GCvzVvoWDCEd0aKwkVi_dKRSlGkCcNmIdUflEjH_2mPkKnKTLv_DKdCr4lzs-C_oHNMwHysYKMSrF8hcN6pMBfH4WEsQdWT-yT8op8z0XbVX2ITSkxM1DXEad8KS3El2KoScWK6yu0QerzKjY0hH5YSR3SkKTJHj5_FhlVaKP3beRIUAip9FO4zB9uDecTmGVYXi_K-sVyHy0003__mC0)
