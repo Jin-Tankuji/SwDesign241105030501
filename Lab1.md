@@ -12,11 +12,13 @@ PHÂN TÍCH YÊU CẦU:
 
 1. Đề xuất kiến trúc:
 Sử dụng kiến trúc MVC: Model xử lý dữ liệu, View hiển thị giao diện, Controller xử lý yêu cầu.
+
 Lý do:
   - Giúp dễ quản lý và giảm phụ thuộc.
   - Dễ mở rộng và bảo trì.
   - Có thể làm việc song song trên Model, View và Controller.
   - Dễ quản lý nhiều View khác nhau cho các loại người dùng khác nhau.
+    
 Giải thích từng phần:
   - Model:
       + Employee: Lưu trữ thông tin như id, tên, địa chỉ, phương thức thanh toán và loại nhân viên.
