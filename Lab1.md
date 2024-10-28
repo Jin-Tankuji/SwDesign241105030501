@@ -57,7 +57,7 @@ Các lớp phân tích:
 Biểu đồ tuần tự:
 ![Sequence - Payment](https://www.planttext.com/api/plantuml/png/Z99D3eCW48Ntd6BYIfDw0HTDk-YkJKmy0O59DG4nC2uyMnSzKgzGgDXgVqpPpUDzxm7XThdk775BlLQC2p8MAb6Zx1NAqXg1pW5ta3n5Y6h2kDHD2_aMIZvOerGrE49Tm2CkQj6SPcnX2jH1TyeCY0MSaQRXs3Zovcc4_3CUPrR6mA_rQB-hiQKJKcsapmx4Mdutzp_StqlUCC6Lw1Kdz7fiUKD69cJ7Lp5sXiczDdrBYyA55rwynooELM5CfoVPVCHbywWVHuWN_hEv6zMfEcCxR6NuF7S0003__mC0)
 
-Biểu đồ lớp:
+Biểu đồ lớp:  
 ![Class - Payment](https://www.planttext.com/api/plantuml/png/R59BJiCm4Dtd5AEkg4Gku0MgH5YmGAhe2QnaW4Z-fFQuKeGu6GkEn1MOD6DJGxFmuirxCs_UvFlpQnT91qhMDBtHCSA3dOoV4U6z0VvQG04UEmMZ8q6TjgZWG65qhm9DUhRew0dfpG-bzj58u_rQBds5NhVLrYT72bwCrnaRDF6eZby1s36bM4q7c8BlCKQPShDLSFBZy6_yVgNv83u0-e3SEklojge4SLkRuiR25Nr4DsIrx5Gerrm4RynXZeJsCee5hQCGiAktPx_QzCcibg_OtURmU6QvPTlU_HcjOCDHdCO1os7MmssQcYZIEZjMF-CnOQHSEyjgqeLo4ToVS_xbxpYtvRVx0G00__y30000)
 
 4. Phân tích ca sử dụng Maintain Timecard:
