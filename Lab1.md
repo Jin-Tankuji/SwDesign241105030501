@@ -53,8 +53,10 @@ Các lớp phân tích:
   - PayrollSystem: Hệ thống xử lý tính toán số tiền lương của nhân viên.
       + Thuộc tính: payrollID, payrollDate.
       + Nhiệm vụ: Tính toán số tiền lương của nhân viên và chuyển thông tin đến PaymentProcessor để xử lý thanh toán.
+      + 
 Biểu đồ tuần tự:
 ![Sequence - Payment](https://www.planttext.com/api/plantuml/png/Z99D3eCW48Ntd6BYIfDw0HTDk-YkJKmy0O59DG4nC2uyMnSzKgzGgDXgVqpPpUDzxm7XThdk775BlLQC2p8MAb6Zx1NAqXg1pW5ta3n5Y6h2kDHD2_aMIZvOerGrE49Tm2CkQj6SPcnX2jH1TyeCY0MSaQRXs3Zovcc4_3CUPrR6mA_rQB-hiQKJKcsapmx4Mdutzp_StqlUCC6Lw1Kdz7fiUKD69cJ7Lp5sXiczDdrBYyA55rwynooELM5CfoVPVCHbywWVHuWN_hEv6zMfEcCxR6NuF7S0003__mC0)
+
 Biểu đồ lớp:
 ![Class - Payment](https://www.planttext.com/api/plantuml/png/R59BJiCm4Dtd5AEkg4Gku0MgH5YmGAhe2QnaW4Z-fFQuKeGu6GkEn1MOD6DJGxFmuirxCs_UvFlpQnT91qhMDBtHCSA3dOoV4U6z0VvQG04UEmMZ8q6TjgZWG65qhm9DUhRew0dfpG-bzj58u_rQBds5NhVLrYT72bwCrnaRDF6eZby1s36bM4q7c8BlCKQPShDLSFBZy6_yVgNv83u0-e3SEklojge4SLkRuiR25Nr4DsIrx5Gerrm4RynXZeJsCee5hQCGiAktPx_QzCcibg_OtURmU6QvPTlU_HcjOCDHdCO1os7MmssQcYZIEZjMF-CnOQHSEyjgqeLo4ToVS_xbxpYtvRVx0G00__y30000)
 
@@ -71,8 +73,10 @@ Các lớp phân tích:
   - PayrollSystem: Chịu trách nhiệm kết nối với các thẻ chấm công để tính toán lương và duy trì thông tin thanh toán.
       + Thuộc tính: payrollID, payrollDate.
       + Nhiệm vụ: Sử dụng dữ liệu từ các thẻ chấm công để tính toán số tiền lương cần trả cho nhân viên vào mỗi kỳ trả lương.
+      + 
 Biều đồ tuần tự:
 ![Sequence - Maintain Timecard](https://www.planttext.com/api/plantuml/png/R951JiCm44NtFiKiGMhKVOHGfT8b2BK8rXDxQAtQiHcFaN8s5Xo9As17fL5Gjdx_lndRFr_VcoJ8ahrJg2Kmx7nqOI02J40-gbYerJPYB_1YFMbayuWz7ebhHFnYOaHwXfvnuE3SOKX2llAOb2eJeBalbXRsz94f2KY0BHCAhNV6JaObVapgTX73ZIbdApY5pEajy9dC2lG9-KXFsNV4jrLmrpIZuThIeygiSwnrCrlea3k_lC0hEblpSrPWJAL6lPa6l9SdlTmSjkXqTYWsz4h5z6VRax2bpya63oXu2PHzsckHgifJUSmE4na8_R-EsfJXzIz_0G00__y30000)
+
 Biểu đồ lớp:
 ![Class - Maintain Timecard](https://www.planttext.com/api/plantuml/png/Z5BDJeGm4BxtAIQS95dYdOFP0nuyh36YyJnBPu5iVqWf9iJuP1vy95_1ihGLTZMH0u6lq-yly_NnkUqj6Zj8mIg1VG-tiXDw988t1kx9W3nmL-JGAkjHXP9oAArfLUsX3aT9okx8DfglpW3wOIzR-zHAgj3mA-i_SWXGciEhRZbxPzv7E8W-mfsr3uxM-IZSsmED7ap_eisH7Fj1Q0oJLOEcflj1xib4TnToErHOa_6g09KXnnsDXpBosDDcOM4pgtlTz2UT9niwlYJxkuLvl2RxJ-6bL8pqWAFHGfHZRqd66hiPNRVemM9TfakFeXg4-tTSlrX8GyDEC-vDbjrSj9b3KfusuFhvL472pYUMjwRn6K_OEiJvr2CXdsf0E6WJKYHiIufF6_qD003__mC0)
 
@@ -88,5 +92,6 @@ Mối quan hệ giữa các lớp:
   - Employee gửi và cập nhật thông tin chấm công thông qua TimecardManager.
   - TimecardManager quản lý các Timecard, hỗ trợ lưu trữ và cung cấp thông tin chấm công khi cần.
   - PayrollSystem truy xuất dữ liệu từ Timecard qua TimecardManager để thực hiện việc tính toán lương, nhưng không sửa đổi thông tin trong Timecard.
+    
 Biểu đồ lớp:
 ![Class - Payment + Maintain Timecard](https://www.planttext.com/api/plantuml/png/Z5FBJiCm4BpdArOvjL8ZxZwW7igXXwAAWZYxpf96-17PwqeLuiiuy4dy0axZf35f9NA8al7kp7Yy_ldwNZhYbhoIcP3SENXGZJGdHFZ883m5O0JMAmQrfeXghf31ZcojgmWr_AHGqmRfOCfa3S3vlQhfkLOek2rd53yOzD2SmT7KPVQPHH_RZcsm4TbJ5rmPhud1cpISqi8Lfs2mVKyujzO8TCxOI0xGT4XSdqKArZTSCsUDbBkJ8rHZYosQMepWo4udARWKNeR_m3NhCsP3_FD-KuDcdzGWruUOwfMfK047uwrxDVOTopGeSU2smaUlzcY7uvh8RRZc5LwY4XO3zt2IK-UBaOL5fnvrvvVZZcI-ASTajyUYAw-G_YaybWfR6eQwAEudEsEGxyxZUVTojfDdVol6NMrvX-TPEWOtk9ym98j7RDtnQpsJgGnDQrrJ7RpqqvndIzHbUqj_0G00__y30000)
