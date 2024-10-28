@@ -77,7 +77,7 @@ Các lớp phân tích:
 Biều đồ tuần tự:
 ![Sequence - Maintain Timecard](https://www.planttext.com/api/plantuml/png/R951JiCm44NtFiKiGMhKVOHGfT8b2BK8rXDxQAtQiHcFaN8s5Xo9As17fL5Gjdx_lndRFr_VcoJ8ahrJg2Kmx7nqOI02J40-gbYerJPYB_1YFMbayuWz7ebhHFnYOaHwXfvnuE3SOKX2llAOb2eJeBalbXRsz94f2KY0BHCAhNV6JaObVapgTX73ZIbdApY5pEajy9dC2lG9-KXFsNV4jrLmrpIZuThIeygiSwnrCrlea3k_lC0hEblpSrPWJAL6lPa6l9SdlTmSjkXqTYWsz4h5z6VRax2bpya63oXu2PHzsckHgifJUSmE4na8_R-EsfJXzIz_0G00__y30000)
 
-Biểu đồ lớp:
+Biểu đồ lớp:  
 ![Class - Maintain Timecard](https://www.planttext.com/api/plantuml/png/Z5BDJeGm4BxtAIQS95dYdOFP0nuyh36YyJnBPu5iVqWf9iJuP1vy95_1ihGLTZMH0u6lq-yly_NnkUqj6Zj8mIg1VG-tiXDw988t1kx9W3nmL-JGAkjHXP9oAArfLUsX3aT9okx8DfglpW3wOIzR-zHAgj3mA-i_SWXGciEhRZbxPzv7E8W-mfsr3uxM-IZSsmED7ap_eisH7Fj1Q0oJLOEcflj1xib4TnToErHOa_6g09KXnnsDXpBosDDcOM4pgtlTz2UT9niwlYJxkuLvl2RxJ-6bL8pqWAFHGfHZRqd66hiPNRVemM9TfakFeXg4-tTSlrX8GyDEC-vDbjrSj9b3KfusuFhvL472pYUMjwRn6K_OEiJvr2CXdsf0E6WJKYHiIufF6_qD003__mC0)
 
 5. Hợp nhất kết quả phân tích:
