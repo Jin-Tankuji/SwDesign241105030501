@@ -53,7 +53,6 @@ Các lớp phân tích:
   - PayrollSystem: Hệ thống xử lý tính toán số tiền lương của nhân viên.
       + Thuộc tính: payrollID, payrollDate.
       + Nhiệm vụ: Tính toán số tiền lương của nhân viên và chuyển thông tin đến PaymentProcessor để xử lý thanh toán.
-      + 
 Biểu đồ tuần tự:
 ![Sequence - Payment](https://www.planttext.com/api/plantuml/png/Z99D3eCW48Ntd6BYIfDw0HTDk-YkJKmy0O59DG4nC2uyMnSzKgzGgDXgVqpPpUDzxm7XThdk775BlLQC2p8MAb6Zx1NAqXg1pW5ta3n5Y6h2kDHD2_aMIZvOerGrE49Tm2CkQj6SPcnX2jH1TyeCY0MSaQRXs3Zovcc4_3CUPrR6mA_rQB-hiQKJKcsapmx4Mdutzp_StqlUCC6Lw1Kdz7fiUKD69cJ7Lp5sXiczDdrBYyA55rwynooELM5CfoVPVCHbywWVHuWN_hEv6zMfEcCxR6NuF7S0003__mC0)
 
