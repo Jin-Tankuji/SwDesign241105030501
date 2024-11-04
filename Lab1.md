@@ -66,13 +66,12 @@ Các lớp phân tích:
       + Nhiệm vụ: Xác thực thông tin của mình, truy cập và chỉnh sửa thẻ chấm công.
   - Timecard: Đại diện cho thẻ chấm công, chứa thông tin số giờ làm việc và ngày làm việc của nhân viên.
       + Thuộc tính: timecardID, date, hoursWorked, chargeNumber.
-      + Nhiệm vụ: Cung cấp thông tin về số giờ làm việc của một nhân viên cho một ngày cụ thể.
+      + Nhiệm vụ: Cung cấp thông tin về số giờ làm việc của một nhân viên.
   - TimecardManager: Chịu trách nhiệm quản lý các thẻ chấm công, bao gồm việc lưu trữ, cập nhật, và truy xuất thông tin thẻ chấm công.
       + Nhiệm vụ: Xử lý logic lưu trữ, chỉnh sửa, và truy xuất các thông tin từ thẻ chấm công khi nhân viên hoặc các hệ thống khác yêu cầu.
   - PayrollSystem: Chịu trách nhiệm kết nối với các thẻ chấm công để tính toán lương và duy trì thông tin thanh toán.
       + Thuộc tính: payrollID, payrollDate.
       + Nhiệm vụ: Sử dụng dữ liệu từ các thẻ chấm công để tính toán số tiền lương cần trả cho nhân viên vào mỗi kỳ trả lương.
-      + 
 Biều đồ tuần tự:
 ![Sequence - Maintain Timecard](https://www.planttext.com/api/plantuml/png/R951JiCm44NtFiKiGMhKVOHGfT8b2BK8rXDxQAtQiHcFaN8s5Xo9As17fL5Gjdx_lndRFr_VcoJ8ahrJg2Kmx7nqOI02J40-gbYerJPYB_1YFMbayuWz7ebhHFnYOaHwXfvnuE3SOKX2llAOb2eJeBalbXRsz94f2KY0BHCAhNV6JaObVapgTX73ZIbdApY5pEajy9dC2lG9-KXFsNV4jrLmrpIZuThIeygiSwnrCrlea3k_lC0hEblpSrPWJAL6lPa6l9SdlTmSjkXqTYWsz4h5z6VRax2bpya63oXu2PHzsckHgifJUSmE4na8_R-EsfJXzIz_0G00__y30000)
 
