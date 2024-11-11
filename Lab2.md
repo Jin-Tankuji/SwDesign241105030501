@@ -1,4 +1,4 @@
-1. Phân tích ca sử dụng Create Payment:
+1. Phân tích ca sử dụng Create Payment:    
 Các lớp phân tích:
 -  Employee: Đại diện cho nhân viên.
     +  Thuộc tính: employeeID, name, address, employeeType, paymentMethod.
