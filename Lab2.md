@@ -50,3 +50,8 @@ Biểu đồ lớp:
 
 Biểu đồ tuần tự:  
 ![Sequence - Login](https://www.planttext.com/api/plantuml/png/b5AnJiCm4Dtz5QTE8C4FT415C30WX0Hym96OnghZHF6vA7C71gPE32mW1aGb90QcPEYGYl_m5_0BN19A6iI21yllVFVktRC_o-N84cRaOYq41fHaS65b9bAEgK2bQ0W6nybO6JZ5iHm0Mj0rh54_QzzH90rZ99KOECijoRWfGBvfOR_Y46rqcM0MDbdX6WbHIu3TlQuJ3E4ayiLh2bGj3ApcgvaPWsb3q-e1OZuHJ3ZmuaHNnXnTSoQPebOXajnotC5WB7SWHMklaopSvlarmNbKlJCryS2HBvzIqBwy4S1hW-YNj6-3h0i2QUsWoUvf-1cjJZw8NExB6VD_lFdodfkjvhvO6kZi459RkIbbqXx_g-WAbPRX7u8QWuTmf1eXnBotDUsTQipCguM3m1VFRcsnziMZ4jBmsunuht_B5m000F__0m00)
+
+4. Phân tích ca sử dụng Create Administrative Report:  
+Các lớp phân tích:  
+-  ReportSystem: Lớp chịu trách nhiệm tạo báo cáo dựa trên các tham số từ admin.
+    +  Thuộc tính: 
