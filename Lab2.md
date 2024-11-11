@@ -54,4 +54,6 @@ Biểu đồ tuần tự:
 4. Phân tích ca sử dụng Create Administrative Report:  
 Các lớp phân tích:  
 -  ReportSystem: Lớp chịu trách nhiệm tạo báo cáo dựa trên các tham số từ admin.
+    +  Phương thức: generateReport().
+-  Report: Lớp chứa dữ liệu báo cáo và cung cấp các phương thức để xuất ra file PDF hoặc Excel.
     +  Thuộc tính: 
