@@ -60,7 +60,8 @@ Các lớp phân tích:
     +  Phương thức: exportToPDF(), exportToExcel().
 -  Database: Cơ sở dữ liệu lưu các report.
 
-Biểu đồ lớp:  
+Biểu đồ lớp:      
 ![Class - Create Administrative Report](https://www.planttext.com/api/plantuml/png/Z50x3e904Ett55jg8XUWC1H8fOaHBp32G4XO83EZWHXFPk6Hl8BBnrMit6QIUM_Vc_UUzqV00YHdKogLbC2i3zZK9777WaPVbHvUZXKI28xWGhe6jQzZeQBALxe10eE2n7QvWsPfnyXKjxdi9EZf50GiQrkmJ9ki9WFYL2TZRFjlnteVHejUDYfA_84sROBb1tIEeRKu0UDN21clw95_CWpNMRrP9PwtVeVnNIyySGRK6VkQqChZ1NaCd55jb0gmIll2Nm000F__0m00)
 
-Biểu đồ tuần tự:
+Biểu đồ tuần tự:        
+![Sequence - Create Administrative Report](https://www.planttext.com/api/plantuml/png/R54zJiCm5DvzYgTEL6elqA4g0Wb612TmugVKKkAazalLZ8Y10J5m0oeEm4mzCEGaFW5NuAMkQ4AxMFRpz-VFF_vxuKXQgejS29bIQU5I5Tg8YeSwrPKq1ADxh4fBS8C6hIHT6hYJ6Ov0Eh3xg-vublBGECAYXuo38VPQaaoaYu8g4M8V0QRpdZhCu6eP_Ak1l0oxhOQatPQGTikwVUysAT1I5k22VnCztfzAT6OTYwiQ7SM45zHKE07E8miaj6ui1d2cguH96Hu8NTWp90PDJwt8Xjq7h8D_11Ny9-Gw-EVwcFt4Q_3WBFQDXwIAdSV_dXQRci4j2pyPRY3ubwFy1AZzQY2DnH5dqR2fkI2J2R50exfl_mK00F__0m00)
