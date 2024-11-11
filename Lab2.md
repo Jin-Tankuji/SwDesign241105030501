@@ -56,4 +56,11 @@ Các lớp phân tích:
 -  ReportSystem: Lớp chịu trách nhiệm tạo báo cáo dựa trên các tham số từ admin.
     +  Phương thức: generateReport().
 -  Report: Lớp chứa dữ liệu báo cáo và cung cấp các phương thức để xuất ra file PDF hoặc Excel.
-    +  Thuộc tính: 
+    +  Thuộc tính: data, format
+    +  Phương thức: exportToPDF(), exportToExcel().
+-  Database: Cơ sở dữ liệu lưu các report.
+
+Biểu đồ lớp:  
+![Class - Create Administrative Report](https://www.planttext.com/api/plantuml/png/Z50x3e904Ett55jg8XUWC1H8fOaHBp32G4XO83EZWHXFPk6Hl8BBnrMit6QIUM_Vc_UUzqV00YHdKogLbC2i3zZK9777WaPVbHvUZXKI28xWGhe6jQzZeQBALxe10eE2n7QvWsPfnyXKjxdi9EZf50GiQrkmJ9ki9WFYL2TZRFjlnteVHejUDYfA_84sROBb1tIEeRKu0UDN21clw95_CWpNMRrP9PwtVeVnNIyySGRK6VkQqChZ1NaCd55jb0gmIll2Nm000F__0m00)
+
+Biểu đồ tuần tự:
