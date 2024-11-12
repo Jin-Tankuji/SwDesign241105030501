@@ -79,3 +79,14 @@ Biểu đồ tuần tự:
 
 6. Phân tích ca sử dụng Run Payroll:    
 Các lớp phân tích:
+-  PayrollSystem: Lớp chính thực hiện quy trình tính lương và gửi thông tin đến BankSystem và Printer.
+-  Các actor:
+    +  BankSystem: Xử lý việc thanh toán lương (mô phỏng chuyển khoản).
+    +  Printer: Xử lý việc in báo cáo lương (mô phỏng in).
+    +  SystemClock: Kích hoạt PayrollSystem theo lịch trình (ví dụ: hàng tuần hoặc hàng tháng).
+
+Biểu đồ lớp:  
+![Class - Run Payroll](https://www.planttext.com/api/plantuml/png/d94nRiCm34LtdO9Z0jGNy504RPTkGNC2LYQC89Haa5G1e-Z9EkH8kK8KkogSf5ErYV__1_7hz7tSgA5O3koSPrI5BOwIc7UZ6WNuT30ToV57MAsXXO-qxoQb0O_iCwFHdVvLaKyO3pUyGP8drP8956r5OU0q4hs-bF3EP1_x1y2GShGow59-PxhdRelFI1RGSd-Z8Sb_YVChdpdvmo-rPFkUfAvtrS-IiCmspUDDaMtbgBiMBjP5GIqenKvXc9k13Wt_IDJLgrschMUtsvJHvKVF0000__y30000)
+
+Biểu đồ tuần tự:    
+![Sequence - Run Payroll](https://www.planttext.com/api/plantuml/png/R90z3i8m38NtdCBgL2Iu00EgW8KDmGbCiAge-PFZ3ZqR0qVY2gI4IYrYi_q-lsVvzNWsIP2bTrOfr18OhaCISWSRTATYbems4Rr0TSQ1WxL5hm0Jn39POdlqtOovvVR7XuqNuk9GQgLcgR3PJSwm1M7JjiJVy7gb9cb1QRIwjoZqbnjlo53ae2cbZ3ZoKfEBDWn4f-CQq8NUozAydFRPozM5Ok3_IweXVny_-0O00F__0m00)
