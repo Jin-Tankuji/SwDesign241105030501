@@ -90,3 +90,49 @@ Biểu đồ lớp:
 
 Biểu đồ tuần tự:    
 ![Sequence - Run Payroll](https://www.planttext.com/api/plantuml/png/R90z3i8m38NtdCBgL2Iu00EgW8KDmGbCiAge-PFZ3ZqR0qVY2gI4IYrYi_q-lsVvzNWsIP2bTrOfr18OhaCISWSRTATYbems4Rr0TSQ1WxL5hm0Jn39POdlqtOovvVR7XuqNuk9GQgLcgR3PJSwm1M7JjiJVy7gb9cb1QRIwjoZqbnjlo53ae2cbZ3ZoKfEBDWn4f-CQq8NUozAydFRPozM5Ok3_IweXVny_-0O00F__0m00)
+
+
+Code Java mô phỏng ca sử dụng Maintain Timecard:
+- models:
+```java
+package models;
+
+public class Employee {
+	private int employeeID;
+	private String name;
+	private String paymentMethod;
+	
+	public Employee(int employeeID, String name, String paymentMethod) {
+		this.employeeID = employeeID;
+		this.name = name;
+		this.paymentMethod = paymentMethod;
+	}
+	
+	public int getEmployeeID() {
+		return employeeID;
+	}
+	
+	public void setEmployeeID(int employeeID) {
+		this.employeeID = employeeID;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getPaymentMethod() {
+		return paymentMethod;
+	}
+	
+	public void setPaymentMethod(String paymentMethod) {
+		this.paymentMethod = paymentMethod;
+	}
+	
+	public void submitTimecard(Timecard timecard) {
+        System.out.println("Timecard submitted for Employee: " + name);
+    }
+}
