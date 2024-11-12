@@ -16,8 +16,7 @@ Biểu đồ lớp:
 Biểu đồ tuần tự:    
 ![Sequence - Create Employee](https://www.planttext.com/api/plantuml/png/P95DJiCm48NtESKeQwBkiogqIB0eL6ebraCyQQpw9_8uYmXnCXOSYIim1jSYnGlByzb-yvxzzV6vveWXJjPKLMUG6UxjQFnC16yLo6X0gnOECMXtoi2XfIk4IWLYlgAKfOxpM2u0h5PGF_WfcBc-WVg01eCcbTORRwrcrjv9dJL6d2svkACuU36o_rjMxnVJHsrfWq4Lqr509-1nsu9sCLE5KOniPSvW41_yuiEPHBit7Yydkm73YPuc-qgX1VvDLTejN9IUzgVy7tRlES9pt-kEKiexT6VPIylR2AbvdPJBkpTDYRE0o-ZLcfnAt_OD003__mC0)
 
-2. Phân tích ca sử dụng Maintain Purchase Order:
-   
+2. Phân tích ca sử dụng Maintain Purchase Order:    
 Các lớp phân tích:
 -  PurchaseOrder: Đại diện cho đơn hàng.
     +  Thuộc tính: orderID, supplier(nhà cung cấp), status, items(danh sách sản phẩm), totalAmount(tổng chi phí).
@@ -77,3 +76,6 @@ Biểu đồ lớp:
 
 Biểu đồ tuần tự:
 ![Sequence - Maintain Employee Info](https://www.planttext.com/api/plantuml/png/X951IWCn58RtESLFLmeMzowaOWM52e9UuCqaT8AJp7GcK-XIN8bu0ZUYkuBWGX0cYou6l4TEu1MQT3hM2kBkvNylt__dvSik1gMXmbGgPOnYanKuuafgbdjHnZ8dRT0xKNcQpOJ0EMaQ2oMyUE6B7gY4K7ce_xXnEIkDKDrWUzeU7PAXYCeMnYF6LW7GF-p8EC1nuko3XacQkO9ozb4YoLpz4IFsdJkTe7JsbQ2JvbbZAfkvPjtj5jGwUrILSpAYoxSZriNPS0--GRlO1t7-tLzfR0FmD1vvpEZphGfvtlKOniVzwUm7-hzShmfNls3gx0skNRqmc5H1IDUK9_-2EB2sdJOBE9NEteO5E7l_3u4DXERXFvS0003__mC0)
+
+6. Phân tích ca sử dụng Run Payroll:    
+Các lớp phân tích:
