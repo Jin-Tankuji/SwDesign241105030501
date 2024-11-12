@@ -93,7 +93,7 @@ Biểu đồ tuần tự:
 
 
 Code Java mô phỏng ca sử dụng Maintain Timecard:
-- models:
+- Employee:
 ```java
 package models;
 
@@ -136,3 +136,180 @@ public class Employee {
         System.out.println("Timecard submitted for Employee: " + name);
     }
 }
+```
+-	Timecard:
+```java
+package models;
+
+import java.util.Date;
+
+public class Timecard {
+	private int timecardID;
+	private Date date;
+	private float hoursWorked;
+	private String chargeNumber;
+	
+	public Timecard(int timecardID, Date date, float hoursWorked, String chargeNumber) {
+		this.timecardID = timecardID;
+		this.date = date;
+		this.hoursWorked = hoursWorked;
+		this.chargeNumber = chargeNumber;
+	}
+
+	public int getTimecardID() {
+		return timecardID;
+	}
+	
+	public void setTimecardID(int timecardID) {
+		this.timecardID = timecardID;
+	}
+	
+	public Date getDate() {
+		return date;
+	}
+	
+	public void setDate(Date date) {
+		this.date = date;
+	}
+	
+	public float getHoursWorked() {
+		return hoursWorked;
+	}
+	
+	public void setHoursWorked(float hoursWorked) {
+		this.hoursWorked = hoursWorked;
+	}
+	
+	public String getChargeNumber() {
+		return chargeNumber;
+	}
+	
+	public void setChargeNumber(String chargeNumber) {
+		this.chargeNumber = chargeNumber;
+	}
+	
+}
+```
+
+-	TimecardManager:
+```java
+package models;
+
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
+
+public class TimecardManager {
+	private Map<String, Timecard> timecards = new HashMap<>();
+	
+	public Timecard createTimecard(Employee employee, Date date, float hours) {
+		Timecard timecard = new Timecard(timecards.size() + 1, date, hours, "ABC123");
+		timecards.put(employee.getEmployeeID() + " - " + date, timecard);
+		System.out.println("Timecard created for Employee ID: " + employee.getEmployeeID());
+		return timecard;
+	}
+	
+	public void updateTimecard(Timecard timecard) {
+		System.out.println("Updating Timecard ID: " + timecard.getTimecardID());
+	}
+	
+	public Timecard getTimecard(Employee employee, Date date) {
+		return timecards.get(employee.getEmployeeID() + " - " + date);
+	}
+	
+}
+```
+-	TimecardController:
+```java
+package controllers;
+
+import java.util.Date;
+
+import models.Employee;
+import models.Timecard;
+import models.TimecardManager;
+import views.TimecardView;
+
+public class TimecardController {
+	private Employee employee;
+	private TimecardManager timecardManager;
+	private TimecardView view;
+	
+	public TimecardController(Employee employee, TimecardManager timecardManager, TimecardView view) {
+		this.employee = employee;
+		this.timecardManager = timecardManager;
+		this.view = view;
+	}
+	
+	public void createTimecard(Date date, float hours) {
+		Timecard timecard = timecardManager.createTimecard(employee, date, hours);
+		employee.submitTimecard(timecard);
+		view.displayMessage("Timecard submitted successfully for Employee ID: " + employee.getEmployeeID());
+	}
+	
+	public void updateTimecard(Timecard timecard) {
+		timecardManager.updateTimecard(timecard);
+		view.displayMessage("Timecard updated successfully for Timecard ID: " + timecard.getTimecardID());
+	}
+	
+	public void displayTimecard(Date date) {
+        Timecard timecard = timecardManager.getTimecard(employee, date);
+        if (timecard != null) {
+            view.displayTimecardDetails(timecard);
+        } else {
+            view.displayMessage("No timecard found for the specified date.");
+        }
+    }
+}
+
+```
+
+-	TimecardView:
+```java
+package views;
+
+import models.Timecard;
+
+public class TimecardView {
+	public void displayTimecardDetails(Timecard timcard) {
+		System.out.println("Timcard ID: " + timcard.getTimecardID());
+		System.out.println("Date: " + timcard.getDate());
+		System.out.println("Hours worked: " + timcard.getHoursWorked());
+		System.out.println("Charge Number: " + timcard.getChargeNumber());
+	}
+	
+	public void displayMessage(String message) {
+		System.out.println(message);
+	}
+}
+
+```
+
+-	main
+```java
+package Application;
+
+import java.util.Date;
+
+import controllers.TimecardController;
+import models.Employee;
+import models.TimecardManager;
+import views.TimecardView;
+
+public class main {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee(1, "Hoang Hai", "Bank Transfer");
+		TimecardManager timecardManager = new TimecardManager();
+		TimecardView view = new TimecardView();
+		
+		TimecardController controller = new TimecardController(employee, timecardManager, view);
+		
+		controller.createTimecard(new Date(), 8);
+		
+		controller.displayTimecard(new Date());
+	}
+
+}
+
+```
