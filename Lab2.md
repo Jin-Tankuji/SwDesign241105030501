@@ -63,5 +63,17 @@ Các lớp phân tích:
 Biểu đồ lớp:      
 ![Class - Create Administrative Report](https://www.planttext.com/api/plantuml/png/Z50x3e904Ett55jg8XUWC1H8fOaHBp32G4XO83EZWHXFPk6Hl8BBnrMit6QIUM_Vc_UUzqV00YHdKogLbC2i3zZK9777WaPVbHvUZXKI28xWGhe6jQzZeQBALxe10eE2n7QvWsPfnyXKjxdi9EZf50GiQrkmJ9ki9WFYL2TZRFjlnteVHejUDYfA_84sROBb1tIEeRKu0UDN21clw95_CWpNMRrP9PwtVeVnNIyySGRK6VkQqChZ1NaCd55jb0gmIll2Nm000F__0m00)
 
-Biểu đồ tuần tự:        
+Biểu đồ tuần tự:         
 ![Sequence - Create Administrative Report](https://www.planttext.com/api/plantuml/png/R54zJiCm5DvzYgTEL6elqA4g0Wb612TmugVKKkAazalLZ8Y10J5m0oeEm4mzCEGaFW5NuAMkQ4AxMFRpz-VFF_vxuKXQgejS29bIQU5I5Tg8YeSwrPKq1ADxh4fBS8C6hIHT6hYJ6Ov0Eh3xg-vublBGECAYXuo38VPQaaoaYu8g4M8V0QRpdZhCu6eP_Ak1l0oxhOQatPQGTikwVUysAT1I5k22VnCztfzAT6OTYwiQ7SM45zHKE07E8miaj6ui1d2cguH96Hu8NTWp90PDJwt8Xjq7h8D_11Ny9-Gw-EVwcFt4Q_3WBFQDXwIAdSV_dXQRci4j2pyPRY3ubwFy1AZzQY2DnH5dqR2fkI2J2R50exfl_mK00F__0m00)
+
+5. Phân tích ca sử dụng Maintain Employee Info:  
+Các lớp phân tích:
+-  EmployeeSystem: Chứa các phương thức để thêm, cập nhật, và xóa thông tin nhân viên.
+-  Employee: Đại diện cho đối tượng nhân viên với các thuộc tính cơ bản và các phương thức lưu và xóa.
+-  Database: Thực hiện lưu trữ, cập nhật, và xóa thông tin nhân viên trong cơ sở dữ liệu.
+
+Biểu đồ lớp:  
+![Class - Maintain Employee Info](https://www.planttext.com/api/plantuml/png/p58x3i8m3Drp2ez5eXVeW3h0mC342GonIgGcZMfJX10dO-18N86qAa64pqoMHEyJFJ_vThcMBDZAtjPARMjaXeNrTNCaMXzPoC99mN1GwmUJQHI40bRe9-7g6gD7qTu7YgAEniTo7cHhQOshfl3LhAcct-PeEATXnvWvV72DZ4DBAHQ6QYbyay2-OIEcSIckoOUkB3bvPG0OEye-pfEzXvw71ZR85BljtNzLRh83UJvxDbs0HOSLSLGDV1og0EE4MjmAmy78JgcIdEuNx0u00F__0m00)
+
+Biểu đồ tuần tự:
+![Sequence - Maintain Employee Info](https://www.planttext.com/api/plantuml/png/X951IWCn58RtESLFLmeMzowaOWM52e9UuCqaT8AJp7GcK-XIN8bu0ZUYkuBWGX0cYou6l4TEu1MQT3hM2kBkvNylt__dvSik1gMXmbGgPOnYanKuuafgbdjHnZ8dRT0xKNcQpOJ0EMaQ2oMyUE6B7gY4K7ce_xXnEIkDKDrWUzeU7PAXYCeMnYF6LW7GF-p8EC1nuko3XacQkO9ozb4YoLpz4IFsdJkTe7JsbQ2JvbbZAfkvPjtj5jGwUrILSpAYoxSZriNPS0--GRlO1t7-tLzfR0FmD1vvpEZphGfvtlKOniVzwUm7-hzShmfNls3gx0skNRqmc5H1IDUK9_-2EB2sdJOBE9NEteO5E7l_3u4DXERXFvS0003__mC0)
