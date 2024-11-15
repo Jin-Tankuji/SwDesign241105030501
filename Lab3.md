@@ -7,6 +7,8 @@ BankSystem:
 - Paycheck: Chứa thông tin thanh toán.
 - BankInformation: Thông tin tài khoản ngân hàng của nhân viên, xác định nơi gửi tiền.
 
+![Subsystem - BankSystem](https://www.planttext.com/api/plantuml/png/j5HBJiCm4Dtx54Ct18bS80lKZogeXAf2kO3ZJ5EhYHtvWnIXhbcpPiK9E40MB3X9Jy0LY6dpQLBOuPtVp9jvyoREL_4nr8OgOzE4d4MuuWBXVZfv6CslRwV04ger8USm-NnZaEoArmocmd2Jauoo3OqH1llx09u8bEU70GkQipMopG5qnwUfjC8444aR9jZW6SqNgBYC0bWQnKLSXo16C_fXUHSzdWikAggBjyXRqj8ofc8p4okfKcgu54UI67FLvpODKVNQ-s79dDCKJmjhSplzgvpneK1FthRZwKmOL2lAiB6rXYfdUGN0pDLTvjfWsfe68ioaviQZbVj1lOTBnvQE5dJzAAKzIXxz8cmYXL4oIL0roXgijtG7D-6sE6N58UxztN5fGxqVpRlP5SzWrhlYHSJ0IgcDXZhhMC8_6tDdgO2rKnNpNV5EWTMwINzwtxywMbK0LgCcBQIVmTCimHI5wUNLJog0J4c6-aIjxgTUTimYQih4cdqwhJJNK2xAfpv44Rb_mJS0003__mC0)
+
 PrintService:  
 - PrintController: Điều phối quá trình in.
 - IPrintService: Giao diện định nghĩa phương thức print.
