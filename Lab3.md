@@ -49,3 +49,26 @@ ProjectManagementDatabase:
 | **ProjectDatabaseProxy**             | - **ProjectDatabaseProxy** (Triển khai các thao tác cơ sở dữ liệu với thêm bảo mật hoặc cache) |
 | **Project**                          | - **Project** (Thông tin chi tiết về dự án) |
 | **DatabaseConnection**               | - **DatabaseConnection** (Cung cấp kết nối cơ sở dữ liệu) |
+
+## 3. Design element to owning package map
+Ánh xạ các phần tử thiết kế vào các gói
+
+| **Phần tử thiết kế**               | **Gói (Package)**             |
+|------------------------------------|-------------------------------|
+| **PayrollController**              | `com.bank.payroll`            |
+| **IBankSystem**                    | `com.bank.system`             |
+| **BankSystem**                     | `com.bank.system`             |
+| **Paycheck**                       | `com.bank.model`              |
+| **BankInformation**                | `com.bank.model`              |
+| **PrintController**                | `com.print.controller`        |
+| **IPrintService**                  | `com.print.service`           |
+| **PrintServiceProxy**              | `com.print.service`           |
+| **Document**                       | `com.print.model`             |
+| **PrintSettings**                  | `com.print.model`             |
+| **PrinterBoundary**                | `com.print.boundary`          |
+| **ProjectController**              | `com.project.controller`      |
+| **IProjectDatabase**               | `com.project.database`        |
+| **ProjectDatabaseProxy**           | `com.project.database`        |
+| **Project**                        | `com.project.model`           |
+| **DatabaseConnection**             | `com.project.database`        |
+
