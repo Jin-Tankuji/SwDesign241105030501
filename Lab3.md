@@ -72,3 +72,7 @@ ProjectManagementDatabase:
 | **Project**                        | `com.project.model`           |
 | **DatabaseConnection**             | `com.project.database`        |
 
+## 4. MVC Components and their Dependencies
+Biểu đồ mô tả các component MVC trong hệ thống và quan hệ giữa chúng
+
+![MVC Component - BankSystem](https://www.planttext.com/api/plantuml/png/V5GxJiCm6Dvp2jE5gJb01rHQggeIGa2vWElyRKrZEx8TH8IOEGGJ9s1WxC3Ga_G4N87OITJu0LcY_D_ZVpd-sN-FbSPIbonFpZ9OKmxeVZPzkBoPNyyGoR5IINAEveSlYeXWwGhpNSf41dbIOBB36q03Dpv0Bmcg7wj5jxWYMo2xNcXIKnTyBIJ3cWhU9qln24Jt8bU2b0ouTaYKwoLeJVb6zQbOunLMC1MSroR6-JKilS2L57ci-1O9oZV1sbERDqZFip35f0ha4oNWcZfGvrg7GAun0RHe-sYKGNisNC_ZkOfcN8cIPrXMiPGTvdKYRUv99_HTxUHJSchKS_PntztY_yofqMVjakBk7HgTbgLqImvJTqXiPdQ_gb8QM6Jn3H39QGxgib6vfxSDsYHt9UPeUzo_eGqzxZyn8eSFWlBZ_hr8WjE3XiCBT_DeX4e5AWdM7gLILkHW_WSZy2RU2PnfdEp38Vqbw2KvDTkGUzzUCSxXikImev5P1Yiv9LZNDOK_RAkBb6gabbNVHcFWcRckVW400F__0m00)
