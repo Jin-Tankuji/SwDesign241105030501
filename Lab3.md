@@ -24,3 +24,28 @@ ProjectManagementDatabase:
 - DatabaseConnection: Lớp biên cung cấp kết nối giữa hệ thống và cơ sở dữ liệu.
 
 ![Subsystem - ProjectManagementDatabase](https://www.planttext.com/api/plantuml/png/j9F1Ri8m38RlUOhS1WTu03HDQ6C7RcWyGMWDP4hSAdRPqBOdss6Fj5UOqn04BHExh8ScjVtNdntd-_DhIcm2DzufTQDdiBO8chUW7ohaK3a7GHVE4AdshHUXUeQ2JxnlIiUd260O3kv1dLOzoO9XYchgyWzH9JZeHSrBYRCeCHyTr3aoXBKfGDcyq_E3UcROh0n1nYIpWojqLx2kyooR5Us9mKVzwpxrJrjVE_20R77JXXrXprkRYPFsVx5xNRfz7uylWdHAV9GoU7zfCZ9n9rqoel4WtqiEqeHCHqMmDTiAEvvsC0KYAkAIh83bgQtR-_kgmTA4SxHSYKmj2bDCbQSsMGP3-T-kikM1oLBFqIPw0cUYdBQs9jM_2wFHNN_o9heXE4QV7syKNA2R29Zt3Tf2QYJzOddxktvnF7Tlq6mabPfAb-AL_W400F__0m00)
+
+## 2. Analysis class to design element map  
+Ánh xạ các lớp phân tích đến các phần tử thiết kế
+- BankSystem:
+| **Các lớp phân tích**               | **Phần tử thiết kế** |
+|-------------------------------------|----------------------|
+| **BankSystem**                       | - **PayrollController** (Điều phối quy trình bảng lương) |
+| **PayrollController**                | - **PayrollController** (Điều phối quy trình bảng lương, gọi phương thức `runPayroll()`) |
+| **IBankSystem**                      | - **IBankSystem** (Giao diện định nghĩa phương thức `deposit`) |
+| **BankSystem**                       | - **BankSystem** (Thực hiện phương thức `deposit` để gửi tiền vào tài khoản ngân hàng) |
+| **Paycheck**                         | - **Paycheck** (Thông tin thanh toán của nhân viên) |
+| **BankInformation**                  | - **BankInformation** (Thông tin tài khoản ngân hàng của nhân viên) |
+| **PrintService**                     | - **PrintController** (Điều phối quá trình in) |
+| **PrintController**                  | - **PrintController** (Điều phối quá trình in và giao tiếp với `PrintServiceProxy`) |
+| **IPrintService**                    | - **IPrintService** (Giao diện định nghĩa phương thức `print`) |
+| **PrintServiceProxy**                | - **PrintServiceProxy** (Triển khai `IPrintService` để thực hiện in ấn) |
+| **Document**                         | - **Document** (Chứa nội dung tài liệu cần in) |
+| **PrintSettings**                    | - **PrintSettings** (Quản lý các cài đặt in) |
+| **PrinterBoundary**                  | - **PrinterBoundary** (Lớp biên giao tiếp với máy in vật lý) |
+| **ProjectManagementDatabase**        | - **ProjectController** (Điều phối các hoạt động quản lý dự án) |
+| **ProjectController**                | - **ProjectController** (Quản lý các yêu cầu liên quan đến dự án và điều phối với cơ sở dữ liệu) |
+| **IProjectDatabase**                 | - **IProjectDatabase** (Giao diện định nghĩa các thao tác cơ sở dữ liệu) |
+| **ProjectDatabaseProxy**             | - **ProjectDatabaseProxy** (Triển khai các thao tác cơ sở dữ liệu với thêm bảo mật hoặc cache) |
+| **Project**                          | - **Project** (Thông tin chi tiết về dự án) |
+| **DatabaseConnection**               | - **DatabaseConnection** (Cung cấp kết nối cơ sở dữ liệu) |
