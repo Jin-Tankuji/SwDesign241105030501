@@ -27,7 +27,7 @@ ProjectManagementDatabase:
 
 ## 2. Analysis class to design element map  
 Ánh xạ các lớp phân tích đến các phần tử thiết kế
-- BankSystem:
+
 | **Các lớp phân tích**               | **Phần tử thiết kế** |
 |-------------------------------------|----------------------|
 | **BankSystem**                       | - **PayrollController** (Điều phối quy trình bảng lương) |
