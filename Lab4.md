@@ -10,7 +10,7 @@
 - Authentication System (Hệ thống xác thực): Xác minh thông tin đăng nhập.
 - Database (Cơ sở dữ liệu): Quản lý dữ liệu tài khoản.
 
-![Sequence - Login](https://www.planttext.com/api/plantuml/png/b5AnJiCm4Dtz5QTE8C4FT415C30WX0Hym96OnghZHF6vA7C71gPE32mW1aGb90QcPEYGYl_m5_0BN19A6iI21yllVFVktRC_o-N84cRaOYq41fHaS65b9bAEgK2bQ0W6nybO6JZ5iHm0Mj0rh54_QzzH90rZ99KOECijoRWfGBvfOR_Y46rqcM0MDbdX6WbHIu3TlQuJ3E4ayiLh2bGj3ApcgvaPWsb3q-e1OZuHJ3ZmuaHNnXnTSoQPebOXajnotC5WB7SWHMklaopSvlarmNbKlJCryS2HBvzIqBwy4S1hW-YNj6-3h0i2QUsWoUvf-1cjJZw8NExB6VD_lFdodfkjvhvO6kZi459RkIbbqXx_g-WAbPRX7u8QWuTmf1eXnBotDUsTQipCguM3m1VFRcsnziMZ4jBmsunuht_B5m000F__0m00)
+![Sequence - Login](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3bTYSab-aK9eSMeH5nU8LD2rKr3ooK_Fp5Dmoo_ALLAmKl3BUBXhRO52ICRXBNdf2Y50cP332p8Ll3Fo7-vQdCU5eXgasx6q92CrhoGpER4aCpzF8RYok2GLR93xmzrhCv7DEJBXI3EG2R602vT6a9akYIM9IOd5gI1ZGefAAnN27kvQcgVWyd3tUWMVp8UxsqiL_DAFRNYuUswcWilXdNdfN4XQy3egf0Ze2w1nknlnceR7RQYXvVrmr_uIXS1IaAaHXnSc0_txSFV6P8nW0WUsbO87qBhcFB2YRcIzN5mEgNafe1W20000__y30000)
 
 ### 3. Describe Persistence-Related Behavior
 - Database lưu trữ thông tin người dùng.
