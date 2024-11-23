@@ -121,8 +121,8 @@
 - Printer: Hệ thống in báo cáo.
 - System Clock: Hệ thống lên lịch tự động cho quá trình tính lương.
 
-### Use case diagram    
-![Use case - Run Payroll](https://www.planttext.com/api/plantuml/png/V9A_JiCm4CRtUugJzmwqdHXGHIR4WWGyW74jZEAU9VioP6RaAI9MAdLkXWwM-Xvv0bw1EYqagL8Mw_xylazt9t_NkqLWwRbOMG2fs7byB0FhLMQTob465BrSd91RIVcnt19T-Wiy-3TYxTlkAVvhoT8xQtloGKK0544h6JIA-xXM1erhjXKZnpKPjFlDlg9NaOJFsLN7FhLjTh6YCsZQGPafogP-9yoJwUSvEUl8EyANM3bKwHbISu3-YIQJcpG9NlytBxBH1v-c_ZW0xECN6G73InnzfibdR9THUfReYqkDIkP9CheTm4BJCds47m000F__0m00)
+### Diagram    
+![Diagram](https://www.planttext.com/api/plantuml/png/V99DJiCm48NtFiMeArZq0YogYfy52wIeAIlKnU1CWnN_HBQB525Ene8ZSGNij2Pneh1zyxutppy_NzzRvz7wavAiHTvWJR0giBD6IdWorKdI2ZuOm4iIoyvvKWTWdsmWRb4tkRrNBjxCMbYXFTb9-5dCdMSQxgJXpSLNyZUAsCHvZnvVqQMqlL34qLQGz4DKdrtOEYY1H-wDXGVLIjCHCJQAX_LwCp_p3UojgEkGaoQ5DPoS4xfcCtSVCUyIKdRahQ1tWcowa93t7jD_amLo_0Q1AqbNiRWYxU5H7urLw8NH2tHwan7PctRK6klXohGHHddDyaKHJdVQtnXgTmn5IvHeEpRaJeoz_iyMjWqjuZ_z1G00__y30000)
 
 ## Lý do:
 - Tự động hóa: Quy trình tính lương tự động hóa theo lịch trình giúp tiết kiệm thời gian và giảm sai sót.
