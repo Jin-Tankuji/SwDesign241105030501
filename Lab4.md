@@ -31,8 +31,8 @@
 - Authentication System: Chứa các lớp xử lý bảo mật như Validator, Authenticator (kiểm tra thông tin, mã hóa mật khẩu, v.v.).
 - Database: Quản lý cơ sở dữ liệu.
   
-### Use case diagram  
-![Use case - Login](https://www.planttext.com/api/plantuml/png/N97FIiD04CRl-nH3xds17gJMWWV1KmjUuoOaIzEDxX-nH-d1gvuyYGqYWb1K4CJieOSDVOzv0b_1tIsOaDF2pc_c--QRNxCTIHKBfHS58J5LfO2PJ0N44gBJRFU1vf51Odzu5X4jKnhB5ABchbdn37YEzUOYykpigAsUsOg2oj5ykiUk6Spp4kjd7i13hV8MFM5eLWjG8WQwgq2YUO84pJiKhd2hGyTaJ4YmD1WSE1qOEcD1s6dOBsT3CGxDVTSHSPYdlPZdZz5i62pjcmQAzQlkuu7p3PEnnwT2B-4AwnVUbU2zD1pRrPWAjwFhCZSmntghu5AxZyxilVNfVk2vhSek1zTjQF_smzR3NjpUqfhdGCCSd-mtXGBD0ui86QKyyPVy0m00__y30000)
+### Diagram    
+![Diagram](https://www.planttext.com/api/plantuml/png/T9A_JWCn38VtF8NLlI_G0HLHCS40LLbG1pTdIaGILuupd11Fni0ZyGgawLNtHyToads_p_dEkT_ldtLI5Ct1cnFQ3pmIB1xuw28ySfCzBU3J0BnUMlSiOGzzVSTHXRqdsPilqm-upVfEKPr5THnXsoQbq4rwGUyQL2v8gGP9dWpPeE81qzLWbqZWsgl9aTHoUJDZ1IlOvaDm2hw-Sl6DpKoiqhrPmRg2m0erPqFqoGmZ5Hdh5spG8CX5sKmpbHj_JE6UCabRWSvnafW_xPaqIxnWHGld3vlRIaVY-AA4KlRwxuA6-rx1ngMJnnPIjfPI0XOWaV8CfIetQCoQOdF-iVu0003__mC0)
 
 ### Lý do: 
 - Bảo mật: Tách biệt giao diện đăng nhập và hệ thống xác thực giúp bảo vệ thông tin người dùng.
@@ -75,8 +75,8 @@
 - Timecard Module (gồm Timecard và Timecard Manager): Quản lý thẻ chấm công, thực hiện các thao tác CRUD.
 - Payroll Module (gồm Payroll System): Tính lương dựa trên thông tin từ thẻ chấm công.
 
-### Use case diagram  
-![Use case - Maintain Timecard](https://www.planttext.com/api/plantuml/png/UhzxlqDnIM9HIMbk3XTNOd99Vf62Qsv1JdvbQgf2Oh62ab_6uKLv2cMPXrVbAK7b0n8hY_9pSe8hYqjISy6AF1xkRbSeoNYuUs9UkeBFiGt75kQbAt6L5gSc9nQdAYY559LMAYG_tBMs0AHersw5P22vD5SX-V0Me3gG2Q7EXWZbpa23ElCo58eVxbwRY5k74K87qCfIXPAYXxlNurPkZEIUmsk1nkT0tGcHDa5pRaKfq8GIe74W8nHAClDmcspAnGKFCbrTEv1d5Am8-HfTYn582q6VSm7zWQ81R7mUKCdQ4gpgKUCAejC4x3haC518URXx8z328c0iux3M5AmPrJWhzB32rCZba9gN0afR00000F__0m00)
+### Diagram  
+![Diagram](https://www.planttext.com/api/plantuml/png/X96_2i8m4CRtUugZkxWxY88T78JwRnA7Cpcbc3ObIGj5V3877ybNi5LYRIcw9NVVxxkFkyVjFh6EZCiJ1Hc9CvqOWqsSi20ZSQ5bhZZ02o3kV7MFtpzSK5f1PWzNQ1mYAerMgctWY-lIEaxQm8mS7SXsPw6llzGad3OO9fdI9JE0V-5WCEv9X2ES2i7M3aCPE_Hzw56s36hmtVamAAiSVy4cRUMmOcTYBdYupIgOlyPtzl33OvcpARiX-l3F9aOO6Lt4aj7BvkbH0qmubVMDdm000F__0m00)
 
 ### Lý do:
 - Tách biệt mô-đun: Tạo các mô-đun riêng biệt (Timecard Module và Payroll Module) giúp quản lý thẻ chấm công và tính lương độc lập, dễ bảo trì và mở rộng.
