@@ -83,6 +83,5 @@
 #### Xác định các phụ thuộc
 - ProjectManagementDatabase phụ thuộc vào DBChargeNumbers để giao tiếp với cơ sở dữ liệu.
 - ChargeNumList và ChargeNum quản lý dữ liệu trả về.
-- Connection, Statement, và ResultSet đại diện cho giao tiếp cấp thấp với cơ sở dữ liệu thông qua JDBC.
 
 ![Dependencies - ProjectManagementDatabase](https://www.planttext.com/api/plantuml/png/h98z3i8m38Ntd29Z6RX01rG18o0a97QtiO9HcwBOPG1nCWQEn1LeIrKQVZOovZr_ptdA_NfBMC1BLUGgou5PhtsvnqoMuC1YWKxc8902epuhtHwBCjk1jxYgYXGzHvadGKyGwuruSdOKwzwm89PkZXm9GKudZ6h7iIIZBgfBdKy3vDUilmG5_Zu6Z8baXxquuFuc39ViMbj1qMO-rtl9MyYheL33VlSy7ay--eYrmGCwmxfqwbri1i9tnJhp28Aimll0sRXA9q2ELLApcp_m0000__y30000)
